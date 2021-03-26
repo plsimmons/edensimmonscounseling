@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/main.css">
     <title>Eden Simmons Counseling, PLLC</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -93,19 +94,19 @@
             <img class="FloatingImages" id="PastryShop" src="Images/Eden2.jpg" alt="Eden sitting on a bench with her laptop outside a cafe." />
             <div id="WorkWithMeText">
                 <p>I offer a free 10 minute phone consultation to prospective clients. For information on rates and scheduling please contact me through the form below.</p>
-                <input type="text" placeholder="First Name: Pat" /><br/>
-                <input type="text" placeholder="Last Name: Personson" /><br/>
-                <input type="tel" placeholder="Phone: (555)-555-5555" /><br/>
-                <input type="email" placeholder="email: pat@email.com" /><br/>
-                <input type="text" placeholder="Subject: Book a session" /><br/>
-                <textarea placeholder="Message: Would you save me a pastry?"></textarea><br/>
-                <button id="Submit">Submit</button>
+                <input id="fname" type="text" placeholder="First Name: Pat" /><br/>
+                <input id="lname" type="text" placeholder="Last Name: Personson" /><br/>
+                <input id="phone" type="tel" placeholder="Phone: (555)-555-5555" /><br/>
+                <input id="email" type="email" placeholder="email: pat@email.com" /><br/>
+                <input id="subject" type="text" placeholder="Subject: Book a session" /><br/>
+                <textarea id="message" placeholder="Message: Would you save me a pastry?"></textarea><br/>
+                <button id="submit">Submit</button>
+                <div id="error" style="color: red"></div>
+                <div id="success" style="color: green"></div>
             </div>
-
-
-
         </div>
     </div>
+    <script src="JS/FormHandler.js"></script>
 </body>
 
 </html>
