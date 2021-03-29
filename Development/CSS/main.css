@@ -31,17 +31,12 @@ h1 {
     z-index: 2;
     margin-bottom: 5vh;
     margin-top: 2vh;
-    text-decoration: underline;
     display: inline-block;
     font-size: xx-large;
     background-color: white;
-    opacity: 60%;
+    opacity: 80%;
     padding: 5px;
     border-radius: 5px;
-}
-
-h2 {
-    text-decoration: underline;
 }
 
 #SnapContainer {
@@ -161,6 +156,7 @@ h2 {
         margin-right: 9vw;
     }
     #Table {
+        max-height: 80vh;
         max-width: 30vw;
     }
     #AboutMeText {
@@ -213,7 +209,6 @@ h2 {
         font-size: 2vw;
     }
     h1 {
-        text-decoration: underline;
         width: fit-content;
         margin-left: auto;
         margin-right: auto;
