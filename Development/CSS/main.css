@@ -162,6 +162,7 @@ h1 {
     #AboutMeText {
         display: inline-block;
         max-width: 35vw;
+        padding-right: 5vw;
         margin-right: auto;
         margin-left: auto;
         vertical-align: top;
@@ -171,8 +172,13 @@ h1 {
         position: absolute;
         padding: 5px;
         border-radius: 5px;
-        top: 15%;
-        left: 30%;
+        width: 30vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        padding-top: 1vh;
+        padding-bottom: 2vh;
+        top: 20%;
+        left: 45%;
         z-index: 5;
         background-color: white;
         opacity: 80%;
@@ -186,11 +192,12 @@ h1 {
     }
     #TreatmentText {
         position: absolute;
+        border-radius: 5px;
         padding-left: 2vw;
         padding-right: 2vw;
         padding-top: 1vh;
         padding-bottom: 2vh;
-        max-width: 30vw;
+        width: 30vw;
         top: 20%;
         left: 45%;
         z-index: 5;
@@ -203,6 +210,7 @@ h1 {
     #WorkWithMeText {
         display: inline-block;
         max-width: 35vw;
+        padding-right: 5vw;
         margin-right: auto;
         margin-left: auto;
         vertical-align: top;
