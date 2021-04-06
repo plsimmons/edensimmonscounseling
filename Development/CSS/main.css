@@ -78,11 +78,12 @@ h1 {
         overflow-y: scroll;
     }
     .StopPoint {
-        height: 85vh;
+        min-height: 85vh;
+        margin-top: 2vh;
     }
     .BigImages {
         display: block;
-        max-width: 30vw;
+        max-width: 70vw;
         margin-left: auto;
         margin-right: auto;
     }
@@ -92,30 +93,43 @@ h1 {
         max-width: 20vw;
         left: 10vw;
     }
-    #Table {}
+    #Table {
+        max-width: 20vw;
+    }
     #AboutMeText {
         display: inline-block;
         position: absolute;
         right: 7vw;
         max-width: 50vw;
     }
+    #BookVignette {
+        right: 5vw;
+        position: absolute;
+    }
     #Book {
-        display: inline-block;
-        max-width: 50vw;
+        display: block;
+        max-width: 40vw;
+        z-index: 0;
+    }
+    #PlantVignette {
+        left: 5vw;
         z-index: 0;
         position: absolute;
-        left: 5vw;
+    }
+    #Plant {
+        display: block;
+        max-width: 40vw;
     }
     #EducationText {
-        display: inline-block;
-        max-width: 80vw;
-        max-height: 55vh;
+        display: flex;
+        min-width: 40vw;
+        max-width: 50vw;
+        min-height: 60vh;
+        max-height: 75vh;
         background-color: white;
         opacity: 85%;
-        z-index: 1;
-        position: absolute;
-        top: 20vh;
-        left: 12vw;
+        z-index: 10;
+        margin-left: 2vw;
     }
     .EduPoint {
         display: inline-block;
@@ -123,13 +137,12 @@ h1 {
         max-height: 25vh;
     }
     .Degree {
-        position: absolute;
-        top: 3vh;
         max-width: 15vw;
+        height: 25vh;
+        margin-top: 5vh;
+        margin-bottom: 1vh;
     }
     .School {
-        position: absolute;
-        bottom: 3vh;
         max-width: 15vw;
         font-weight: bold;
     }
@@ -137,9 +150,8 @@ h1 {
         height: 150vh;
     }
     #TreatmentText {
-        max-width: 85vw;
+        max-width: 50vw;
         margin-top: 3vh;
-        margin-right: auto;
         margin-left: auto;
     }
     #PastryShop {
@@ -151,6 +163,10 @@ h1 {
         position: absolute;
         top: 12vh;
         right: 8vw;
+    }
+    h1 {
+        left: 20vw;
+        top: 5vh;
     }
 }
 
